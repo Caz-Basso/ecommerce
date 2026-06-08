@@ -36,7 +36,7 @@ class BrandForm
                         ]),
                     FileUpload::make('image')
                         ->image()
-                        ->directory('categories'),   
+                        ->directory('brands'),   
                     
                     Toggle::make('is_active')
                         ->required()
